@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 75px;
+    }
+.start{
+    width: 90%;
+    height:90vh;
+    background-color: lightgray;
+    display: flex;
+    margin: auto;
+    text-align: left;
+    }
+.show{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin: 25px;
+    }
+h1{
+    color: blue;
+    }
+.helps{
+    margin: 10px;
+    text-align: left;
+    justify-content: left;
+}
+.continue{
+    margin-top: 40px; 
+    width: 80%;
+    height: 80vh;
+    }
+.more{
+  width:70%;
+  background-color:white; 
+  border-radius:7px;
+  margin-left: 50px;
+}
+input[type="text"]{
+    width: 95%;
+    padding: 15px 55px;
+    margin:15px  10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+   input[type="password"]{
+    width: 95%;
+    padding: 15px 55px;
+    margin:15px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.button{
+    color: white;
+    text-align: center;
+    display:block;
+    font-size: 15px;
+    margin: auto;
+    background-color: blue;
+    padding: 10px 170px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+a:link{
+    text-align: center;
+    background-color: green;
+    display: block;
+    padding: 20px 15px;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-top: 35px;
+    padding-bottom: 25px;
+    border: 35px;
+    border-radius: 5px;
+}
+.new{
+    font-weight: 300px;
+    padding-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+span{
+    font-weight: bolder;
+}
