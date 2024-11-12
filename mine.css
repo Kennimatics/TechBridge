@@ -1,44 +1,58 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 body{
     height: 100vh;
-    width: 100%;
-    padding-bottom: 75px;
-    }
+    /* width: 90% */
+    font-family:'Times New Roman', Times, serif;
+    background-color: lightgrey;
+ }
+
 .start{
-    width: 90%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     height:90vh;
-    background-color: lightgray;
     display: flex;
-    margin: auto;
-    text-align: left;
-    }
+    align-content: center;
+    gap: 5rem;
+    justify-content: space-between; 
+ }
+ .break{
+    margin: 30px;
+ }
 .show{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     font-weight: bold;
-    margin: 25px;
+    margin-top: 200px;
+    margin-left: 75px;
     }
 h1{
     color: blue;
     }
 .helps{
     margin: 10px;
-    text-align: left;
-    justify-content: left;
+    align-items: center;
+    font-size: large;
 }
 .continue{
-    margin-top: 40px; 
-    width: 80%;
-    height: 80vh;
-    }
+    margin-top: 80px; 
+    width: 700px;
+    height: 100vh;
+    margin-bottom: 80px;
+ }
 .more{
   width:70%;
-  background-color:white; 
+  background-color: white; 
   border-radius:7px;
   margin-left: 50px;
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+}
+input :hover{
+    color: lightblue;
 }
 input[type="text"]{
     width: 95%;
@@ -65,27 +79,28 @@ input[type="text"]{
     margin-bottom: 15px;
     border-radius: 5px;
     margin-top: 25px;
-}
-a:link{
+ }
+.sort{
     text-align: center;
     background-color: green;
     display: block;
     padding: 20px 15px;
     margin: auto;
     color: white;
-    margin-bottom: 20px;
-    width: 50%;
-    margin-top: 35px;
-    padding-bottom: 25px;
-    border: 35px;
     border-radius: 5px;
+    width:200px;
+} 
+.end{
+    font-size: 20px;
+    margin-left: 150px;
+    text-decoration: none; 
 }
 .new{
     font-weight: 300px;
-    padding-left: 20%;
+    padding-left: 15%;
     font-family: Arial, Helvetica, sans-serif;
-    
-}
+    margin-bottom: 180px;
+    }
 span{
     font-weight: bolder;
 }
